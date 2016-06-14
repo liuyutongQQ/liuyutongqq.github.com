@@ -1,0 +1,15 @@
+/*style.css*/
+h1 {
+    color: #f00;
+    font-family: "Arial Black";
+background-color: gold;
+}
+p {
+color: aquamarine;
+    font-family: "Book Antiqua";
+    background-color: darkgrey;
+}
+body {
+    font-family: "Blackadder ITC";background-color: greenyellow;
+
+}

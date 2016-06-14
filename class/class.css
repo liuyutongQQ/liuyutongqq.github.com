@@ -1,0 +1,7 @@
+.blue {
+    color: aqua;background-color: red;font-family: "Arial Black";
+}
+
+.shadow {
+    text-shadow: 3px 1px 1px #333;
+}
