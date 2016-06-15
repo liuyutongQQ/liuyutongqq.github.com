@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+#big {
+    color: red;font-size: 100px;
+}
+#red {
+    color: red;font-size: 200px;
+}
+.shadow {
+    text-shadow: 10px 5px 1px blue;
+}
+#red,
+#big,
+.shadow {
+    font-family: "Browallia New";
+}

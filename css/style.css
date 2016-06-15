@@ -13,3 +13,6 @@ body {
     font-family: "Blackadder ITC";background-color: greenyellow;
 
 }
+h1.red {
+    color: red;font-size: 100px;
+}
