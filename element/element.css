@@ -1,0 +1,19 @@
+body {
+    font-family: Impact ,Serif ;
+}
+.p1::before {
+    content:'text...';
+    background-color: #333333 ;
+    font-family: Consolas Serif;
+}
+.p2::after {
+    content: 'text...';
+    background-color: red ;
+    font-family: inherit;
+}
+.p3::first-letter {
+    font-size: 1in;
+}
+.p4::first-line {
+    color: aqua ;
+}
