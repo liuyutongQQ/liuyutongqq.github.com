@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        body {
+            background-color: #ddd;
+        }
+        .clear {
+            clear: both ;
+        }
+        #container {
+            width: 1000px;
+            margin: auto ;
+        }
+        #header {
+            background-color: #fa7d3c;
+            height: 400px;
+        }
+        #content {
+
+        }
+        #left {
+            background-color: aqua ;
+            width: 400px;
+        }
+        #center {
+            background-color: aquamarine;
+            width: 350px;
+        }
+        #right {
+            background-color: blueviolet ;
+            width:250px;
+        }
+        #left,
+        #center ,
+        #right {
+            height: 1000px;
+            float: left ;
+        }
+        #footer {
+            background-color: red ;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="header">header....</div>
+    <div id="content">
+        <div id="left">left....</div>
+        <div id="center">center....</div>
+        <div id="right">right....</div>
+        <div class="clear"></div>
+    </div>
+    <div id="content1">
+        <div id="left1">left1....</div>
+        <div id="right1"></div>
+    </div>
+    <div id="footer">footer.....</div>
+</div>
+</body>
+</html>
